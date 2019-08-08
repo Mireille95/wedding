@@ -130,3 +130,30 @@ function Wedding(firstName,lastName, phone,country, email,eventDetails,date,even
   else{
       alert("Try again");
   }
+  var prices;
+      var newBook = new Wedding( fName,lName,phon,countr,emai,dFlex,dat,typ,numbers,preff,prices);
+      console.log(newBook);
+
+      $("#show-order").show();
+    
+        $(".firstName").text(newBook.firstName);
+        $(".lastName").text(newBook.lastName);
+        $(".phone").text(newBook.phone);
+        $(".country").text(newBook.country);
+        $(".email").text(newBook.email);
+        $(".datef").text(newBook.eventDetails);
+        $(".date").text(newBook.date);
+        $(".type").text(newBook.eventType);
+        $(".number").text(newBook.number);
+        $(".preffered").text(newBook.preferedVenues);
+        $(".price").text(newBook.price);
+
+
+console.log(prices);
+});
+});
+});
+document.getElementById("btns").addEventListener("click", function () { 
+   
+    alert(" message sent !  Thank you for being our valued customer.    We are grateful for the pleasure of making your wedding more special .once again thank you !!");
+});
