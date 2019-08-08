@@ -1,3 +1,14 @@
+document.getElementById("bbtn").addEventListener("click", function () { 
+   
+    alert(" Message sent !  Thank you For Your Comment");
+});
+
+
+
+
+
+
+
 function Wedding(firstName,lastName, phone,country, email,eventDetails,date,eventType, number,preferedVenues,price) {
     this.firstName = firstName;
     this.lastName = lastName;
@@ -155,5 +166,5 @@ console.log(prices);
 });
 document.getElementById("btns").addEventListener("click", function () { 
    
-    alert(" message sent !  Thank you for being our valued customer.    We are grateful for the pleasure of making your wedding more special .once again thank you !!");
+    alert(" Message sent! Thank you for being our valued customer.    We are grateful for the pleasure of making your wedding more special .once again thank you !!");
 });
