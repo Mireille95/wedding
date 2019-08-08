@@ -161,10 +161,10 @@ document.getElementById("btns").addEventListener("click", function () {
     alert(" Message sent! Thank you for being our valued customer.    We are grateful for the pleasure of making your wedding more special .once again thank you !!");
 });
 
-// document.getElementById("bbtn").addEventListener("click", function () { 
+document.getElementById("bbtn").addEventListener("click", function () { 
    
-//     alert(" Message sent !  Thank you For Your Comment");
-// });
+    alert(" Message sent !  Thank you For Your Comment");
+});
 
 
 
