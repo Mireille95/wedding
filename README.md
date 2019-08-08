@@ -1,8 +1,9 @@
 ## Project name
-Wedding Halls
+Online Wedding Venues Reservation
 come and get your dream come true.
-### Project description
+## Project description
 WeedingHalls project is an online wedding halls reservation  where you can see a wedding hall in our gallery and then you book the one you prefer.
+<img src="image/screen.png">
 ## Authors
 * NIYOMUFASHA Emerance
 * UMUHIRE  Anuarithe
