@@ -57,3 +57,76 @@ function Wedding(firstName,lastName, phone,country, email,eventDetails,date,even
       
     //   $("ul#we").append("<li><span class='contact'>" + newBook.fullBook() + "</span></li>");
 
+    if(preff === "Arena Wedding Hall" && typ === "Reception"){
+        prices = 2000000;
+  }
+  else if(preff === "Arena Wedding Hall" && typ === "Dowry")
+  {
+      prices = 1500000;
+  }else if(preff === "Convention Wedding Hall" && typ === "Dowry")
+  {
+      prices = 1400000;
+  }
+  else if(preff === "Convention Wedding Hall" && typ === "Reception")
+  {
+      prices = 1800000;
+  }
+  else if(preff === "Heaven Garden Rebero" && typ === "Reception")
+  {
+      prices = 1000000;
+  }
+  else if(preff === "Heaven Garden Rebero" && typ === "Dowry")
+  {
+      prices = 800000;
+  }
+  else if(preff === "Serena Wedding Hall" && typ === "Dowry")
+  {
+      prices = 700000;
+  }
+  else if(preff === "Serena Wedding Hall" && typ === "Reception")
+  {
+      prices = 800000;
+  }
+  else if(preff === "Marriot Wedding Hall" && typ === "Dowry")
+  {
+      prices = 900000;
+  }
+  else if(preff === "Marriot Wedding Hall" && typ === "Reception")
+  {
+      prices = 1000000;
+  }
+  else if(preff === "Ituze Garden" && typ === "Dowry")
+  {
+      prices = 400000;
+  }
+  else if(preff === "Ituze Garden" && typ === "Reception")
+  {
+      prices = 600000;
+  }
+  else if(preff === "La palme wedding Hall" && typ === "Dowry")
+  {
+      prices = 500000;
+  }
+  else if(preff === "La palme wedding Hall" && typ === "Reception")
+  {
+      prices = 700000;
+  }
+  else if(preff === "Greenwich wedding Hall" && typ === "Dowry")
+  {
+      prices = 300000;
+  }
+  else if(preff === "Greenwich wedding Hall" && typ === "Reception")
+  {
+      prices = 550000;
+  }
+  else if(preff === "Hill View wedding Hall" && typ === "Dowry")
+  {
+      prices = 400000;
+  }
+  else if(preff === "Hill View wedding Hall" && typ === "Reception")
+  {
+      prices = 600000;
+  }
+  else{
+      alert("Try again");
+  }
