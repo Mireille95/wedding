@@ -26,6 +26,19 @@ WeedingHalls project is an online wedding halls reservation  where you can see a
 
 ### MVP
 Name: Online Wedding Halls
-Features
+Features:
++ User browser over our pages
++ user be able to book 
++ user be able to leave a comment
++ user be able to see the checkout
+
+### Technologies used
++ html
++ css 
++ javascripts
++ github
++ bootstraps
++ jquery
+
 
 ### copyright and lisence
