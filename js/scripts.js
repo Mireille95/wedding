@@ -13,3 +13,29 @@ function Wedding(firstName,lastName, phone,country, email,eventDetails,date,even
     this.price = price;
    
   }
+  Wedding.prototype.fullBook = function() {
+    return (
+      this.firstName +
+      " " +
+      this.lastName +
+      " " +
+      this.phone +
+      " " +
+      this.country +
+      " " +
+      this.email +
+      " " +
+      this.eventDetails +
+      " " + 
+      this.date +
+      " " + 
+      this.eventType +
+      " " + 
+      this.number +
+      " " + 
+      this.preferedVenues +
+      " " + 
+      this.price
+    );
+  };
+  
